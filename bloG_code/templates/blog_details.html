@@ -1,0 +1,16 @@
+{% extends "blog_list.html" %}
+
+
+{% block content %}
+
+
+  <div class="container">
+    <img class="materialboxed" width="375" src="{{detail_of_a_blog.image}}">
+    <h1>{{detail_of_a_blog.heading}}</h1>
+    <p>{{detail_of_a_blog.description}}</p>
+    <small>{{detail_of_a_blog.read_time}} min read</small>
+    <h5>{{detail_of_a_blog.content}}</h5>
+
+  </div>
+
+{% endblock content %}
